@@ -1,11 +1,14 @@
 package net.engawapg.sample.ui
 
+import androidx.compose.foundation.border
 import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.dp
 import coil3.compose.AsyncImage
 import net.engawapg.lib.zoomable.rememberZoomState
 import net.engawapg.lib.zoomable.zoomable
@@ -19,7 +22,7 @@ fun ImageSample(modifier: Modifier = Modifier) {
         contentScale = ContentScale.Fit,
         error = painterResource(R.drawable.noimage),
         onSuccess = { zoomState.setContentSize(it.painter.intrinsicSize) },
-        modifier = modifier.zoomable(zoomState)
+        modifier = modifier.zoomable(zoomState).border(4.dp, Color.Green)
     )
 }
 
