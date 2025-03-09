@@ -22,3 +22,4 @@ dependencyResolutionManagement {
 rootProject.name = "ZoomableScreenshotTestingSample"
 include(":app")
 include(":ui")
+include(":screenshots")
