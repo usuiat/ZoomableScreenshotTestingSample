@@ -10,3 +10,5 @@ The differences when [adding a border](https://github.com/usuiat/ZoomableScreens
 You can see that the differences are recorded as expected.
 
 ![image](https://github.com/user-attachments/assets/0898cdbc-4d49-4b81-9ea0-a4c5efe87054)
+
+[Using only Paparazzi without Showkase](https://github.com/usuiat/ZoomableScreenshotTestingSample/tree/paparazzi-only) had no problems as well.
